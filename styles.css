@@ -9,28 +9,60 @@ body {
 header {
     background-color: #0d1b2a;
     color: white;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
+}
+
+.title {
+    color: white;
+    margin: 0;
+}
+
+.subtitle {
+    color: #cbd5e1;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #1b263b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #0077b6;
+    text-decoration: none;
 }
 
 main {
     padding: 20px;
 }
 
-footer {
-    background-color: #0d1b2a;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+.container {
+    max-width: 800px;
+    margin: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #1b263b;
 }
-.title{
-    color: white;
-}
+
 a {
     color: #0077b6;
     text-decoration: none;
@@ -41,16 +73,134 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Seccion de bienvenida con foto */
+.hero {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #0d1b2a;
+    margin-bottom: 15px;
+}
+
+/* Secciones con fondo blanco */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas de intereses */
+.card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0077b6;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Lista de tecnologias */
+.skills {
+    margin-top: 10px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #0d1b2a;
+    color: white;
+    padding: 5px 12px;
+    margin: 3px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+/* Listas con guion */
 ul {
     list-style: none;
     padding: 0;
 }
 
-li {
-    margin: 10px 0;
+ul li {
+    margin: 8px 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
+ul li:before {
+    content: "- ";
+    color: #0077b6;
+    font-weight: bold;
+}
+
+/* Boton */
+.btn {
+    display: inline-block;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #023e8a;
+    text-decoration: none;
+}
+
+/* Tarjeta de contacto */
+.contact-card {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-card h2 {
+    color: white;
+}
+
+.contact-card p {
+    color: #cbd5e1;
+}
+
+.email {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Responsive para celulares */
+@media (max-width: 600px) {
+    .hero-photo {
+        width: 140px;
+        height: 140px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
 }
