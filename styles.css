@@ -73,7 +73,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Seccion de bienvenida con foto */
+
 .hero {
     background-color: white;
     padding: 20px;
@@ -89,14 +89,13 @@ a:hover {
     margin-bottom: 15px;
 }
 
-/* Secciones con fondo blanco */
+
 .section {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-/* Tarjetas de intereses */
 .card {
     background-color: white;
     padding: 15px;
@@ -108,7 +107,7 @@ a:hover {
     margin-top: 0;
 }
 
-/* Lista de tecnologias */
+
 .skills {
     margin-top: 10px;
 }
@@ -123,7 +122,7 @@ a:hover {
     font-size: 14px;
 }
 
-/* Listas con guion */
+
 ul {
     list-style: none;
     padding: 0;
@@ -139,7 +138,7 @@ ul li:before {
     font-weight: bold;
 }
 
-/* Boton */
+
 .btn {
     display: inline-block;
     background-color: #0077b6;
@@ -153,7 +152,7 @@ ul li:before {
     text-decoration: none;
 }
 
-/* Tarjeta de contacto */
+
 .contact-card {
     background-color: #0d1b2a;
     color: white;
@@ -188,7 +187,7 @@ footer p {
     margin: 5px;
 }
 
-/* Responsive para celulares */
+
 @media (max-width: 600px) {
     .hero-photo {
         width: 140px;
